@@ -5,7 +5,7 @@
 @rem * Hotbackup Oracle
 @rem * C'est la migration du script pour windows d'un hotbackup oracle 
 @rem * réalisé sur un SUN 450 Solaris vers un DDS Distant.
-@rem * C'est une version hotbakup pour windows
+@rem * C'est une version hotbackup qui fonctionne sous windows
 @rem ****************************************************
 @rem * Right Reserved for Bruno Cirousele - Multilink
 @rem * la société Millennium Informatix Groupe 	sarl
