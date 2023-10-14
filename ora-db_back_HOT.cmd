@@ -1,10 +1,12 @@
 @rem ****************************************************
-@rem * (c) Laurent PERRET
-@rem *  sysadmsy6@gmail.com - Version pour windows
+@rem * (c) Laurent PERRET - TRUE HOTBACKUP ORACLE !
+@rem *  sysadmsy7@gmail.com - Version pour windows
+@rem *  Engeenering - Reverse Engeenering Database
 @rem ****************************************************
 @rem * Hotbackup Oracle
 @rem * C'est la migration du script pour windows d'un hotbackup oracle 
 @rem * réalisé sur un SUN 450 Solaris vers un DDS Distant.
+@rem * Assemblage de différents .sh .ksh .csh migré en .cmd
 @rem * C'est une version hotbackup qui fonctionne sous windows
 @rem ****************************************************
 @rem * Right Reserved for Bruno Cirousele - Multilink
@@ -14,11 +16,11 @@
 setlocal
 set ORACLE_SID=MEP
 set O_CONNECT=internal/Oracle@%ORACLE_SID%
-set O_INIT=C:\extraNETv1\bin\oracle\orant\DATABASE\Initorcl.ora
-set O_SVRMGR=C:\extraNETv1\bin\oracle\orant\bin\Svrmgr23.exe
-set O_EXPORT=C:\extraNETv1\bin\oracle\orant\bin\exp73.exe
-set O_PLUS=C:\extraNETv1\bin\oracle\orant\bin\Plus33w.exe
-set O_COPY=C:\extraNETv1\bin\oracle\orant\bin\Ocopy73.exe
+set O_INIT=C:\extraNET\bin\oracle\orant\DATABASE\Initorcl.ora
+set O_SVRMGR=C:\extraNET\bin\oracle\orant\bin\Svrmgr23.exe
+set O_EXPORT=C:\extraNETvbin\oracle\orant\bin\exp73.exe
+set O_PLUS=C:\extraNET\bin\oracle\orant\bin\Plus33w.exe
+set O_COPY=C:\extraNETvbin\oracle\orant\bin\Ocopy73.exe
 set O_BACKPATH=Z:\oracle\ORABACK\hot
 set O_BACKSVGR=SAV
 set O_BACKDELE=Z:\oracle\ORABACK\SAV
