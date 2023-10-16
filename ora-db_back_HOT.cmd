@@ -1,14 +1,16 @@
 @rem ****************************************************
-@rem * (c) Laurent PERRET
+@rem * (c) Laurent PERRET - Right Reserved
 @rem *  sysadmsy6@gmail.com - Version pour windows
 @rem ****************************************************
 @rem * Hotbackup Oracle
-@rem * C'est la migration du script pour windows d'un hotbackup oracle 
-@rem * réalisé sur un SUN 450 Solaris vers un DDS Distant.
-@rem * C'est une version hotbackup qui fonctionne sous windows
+@rem ****************************************************
+@rem * This is the migration of the script for windows 
+@rem * from oracle hotbackup done on a
+@rem * SUN 450 Solaris to a Remote DDS.
+@rem * It's a hotbackup version that works under Windows
 @rem ****************************************************
 @rem * Right Reserved for Bruno Cirousele - Multilink
-@rem * la société Millennium Informatix Groupe 	sarl
+@rem * la société Millennium Informatix Groupe sarl
 @rem ****************************************************
 @echo off
 setlocal
